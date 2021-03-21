@@ -2,6 +2,7 @@
 This is a Simple REST Web Application done with Eclipse as excercise. Consists of a Employee Serlvet form which calls a POST method to insert Data in a MySQL Database.
 # Implementations and technologies used:
 JDK Java SE 15
+This is a dynamic web project. For use with axis 2 engine set it 2.5 verion or lower.
 Apache Tomcat Server 9.0.44 download here: https://tomcat.apache.org/download-90.cgi (Download the installer and use it as server runtime ).
 
 DBC Driver for MySQL (Connector/J) 8.0.23 download here: https://www.mysql.com/products/connector/ (Must be added to WEB-INF/lib).
