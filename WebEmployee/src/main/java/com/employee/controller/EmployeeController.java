@@ -122,7 +122,7 @@ public class EmployeeController extends HttpServlet {
 				employee_sql.insert_employee(new_person);
 			}else {
 				PrintWriter out_problem = response.getWriter();
-				out_problem.println("No se pudo registro al empleado por algun campo mal escrito o ser menor de edad ");
+				out_problem.println("No se pudo registrar al empleado por algun campo mal escrito o ser menor de edad ");
 				
 			}
 		
