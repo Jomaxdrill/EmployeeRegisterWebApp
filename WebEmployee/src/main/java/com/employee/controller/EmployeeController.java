@@ -89,7 +89,7 @@ public class EmployeeController extends HttpServlet {
 			
 			
 			LocalDate datetime_company= LocalDate.of(calendar_work.get(Calendar.YEAR),
-													 calendar_work.get(Calendar.MONTH) , 
+													 calendar_work.get(Calendar.MONTH)+1 , 
 													 calendar_work.get(Calendar.DATE));
 			Period period_of_work= Period.between(datetime_company, today);
 			Calendar calendar_work1=Calendar.getInstance();
@@ -102,7 +102,7 @@ public class EmployeeController extends HttpServlet {
 			
 			
 			LocalDate datetime_age= LocalDate.of(calendar_age.get(Calendar.YEAR),
-													 calendar_age.get(Calendar.MONTH) , 
+													 calendar_age.get(Calendar.MONTH)+1 , 
 													 calendar_age.get(Calendar.DATE));
 			Period period_of_age= Period.between(datetime_age, today);
 			Calendar calendar_age1=Calendar.getInstance();
