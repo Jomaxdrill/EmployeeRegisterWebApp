@@ -13,6 +13,6 @@ Google gson library 2.8.6 download here: https://repo1.maven.org/maven2/com/goog
 
 axis2-kernel-1.7.9 and axis2-transport-http-1.7.9 download here: https://mvnrepository.com/artifact/org.apache.axis2  (Must be added to WEB-INF/lib).
 
-JSP 1.2 if needed https://mvnrepository.com/artifact/javax.servlet/jstl/1.2 (Add it to build path).
+JSP 1.2 if needed https://mvnrepository.com/artifact/javax.servlet/jstl/1.2 (Add it to build path and if needed to  WEB-INF/lib).
 
 
