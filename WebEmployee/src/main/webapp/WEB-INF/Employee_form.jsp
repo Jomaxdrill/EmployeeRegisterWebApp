@@ -6,7 +6,7 @@
 <meta charset="ISO-8859-1">
 <title>Employee Register Form</title>
 <style type="text/css">
-.h1{
+h1{
 font-family: "Lucida Console", "Courier New", monospace;
 }
 
@@ -30,11 +30,11 @@ font-family: "Lucida Console", "Courier New", monospace;
     <option value="Otro">Otro</option>
   </select>
   <br><br>
-  <label for="doc_number">Número de Documento:</label>
+  <label for="doc_number">NÃºmero de Documento:</label>
   <input type="text" id="doc_number" name="doc_number"><br><br>
   <label for="date_of_birth">Fecha de Nacimiento:</label>
   <input type="date" id="date_of_birth" name="date_of_birth"><br><br>
-   <label for="date_company_work">Fecha de Vinculación a la Compañía :</label>
+   <label for="date_company_work">Fecha de VinculaciÃ³n a la CompaÃ±Ã­a :</label>
   <input type="date" id="date_company_work" name="date_company_work"><br><br>
   <label for="position">Cargo:</label>
   <input type="text" id="position" name="position"><br><br>
